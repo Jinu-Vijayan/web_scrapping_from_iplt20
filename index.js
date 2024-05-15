@@ -27,7 +27,7 @@ function waitForTimeout(){
     }
 
     // Launch the browser and open a new blank page
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
 
     try{
 
